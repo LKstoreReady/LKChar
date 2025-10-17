@@ -1,7 +1,7 @@
 
 import UIKit
 import CommonCrypto
-import Taleo_General
+import TTLBGenerals
 
 class IoGetStaticShortField: UITableViewCell {
         

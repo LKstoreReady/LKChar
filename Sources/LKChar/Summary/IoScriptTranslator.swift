@@ -1,8 +1,8 @@
 
 import UIKit
 import MJRefresh
-import Package_net
-import Taleo_General
+import NKWorking
+import TTLBGenerals
 
 class IoScriptTranslator: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource {
 

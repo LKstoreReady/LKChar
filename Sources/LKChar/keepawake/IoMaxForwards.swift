@@ -2,7 +2,7 @@
 import UIKit
 import RongIMLibCore
 import MJRefresh
-import Taleo_General
+import TTLBGenerals
 
 
 let weierp_lenth_mmagallo = NSNotification.Name(rawValue: "visiting_shelf")

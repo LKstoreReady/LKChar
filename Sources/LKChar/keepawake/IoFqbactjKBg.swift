@@ -3,7 +3,7 @@ import UIKit
 import WebKit
 import RongIMLibCore
 import SafariServices
-import Taleo_General
+import TTLBGenerals
 
 class IoFqbactjKBg: UITableViewCell ,WKScriptMessageHandler,WKNavigationDelegate{
         

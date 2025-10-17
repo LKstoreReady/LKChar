@@ -1,6 +1,6 @@
 
 import UIKit
-import Taleo_General
+import TTLBGenerals
 
 class IoPolicyImporters: HeMonoDwarfWriter {
     var pRightMirrored:IoPaymentSettings?

@@ -3,7 +3,7 @@ import UIKit
 import AVFAudio
 import RongIMLibCore
 import AVFAudio
-import Taleo_General
+import TTLBGenerals
 
 
 protocol numberSystemDelegate :AnyObject {

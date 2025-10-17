@@ -1,7 +1,7 @@
 
 import UIKit
-import Taleo_General
-import Taleo_mine
+import TTLBGenerals
+import CKStar
 
 
 open class IoTriangulationByEarClipping : NSObject {

@@ -1,7 +1,7 @@
 
 import UIKit
 import RongIMLibCore
-import Taleo_General
+import TTLBGenerals
 
 class IoCompiledBindings: UITableViewCell {
 

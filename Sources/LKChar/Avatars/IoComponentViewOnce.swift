@@ -1,8 +1,8 @@
 
 import UIKit
 import RongIMLibCore
-import Taleo_General
-import Package_net
+import TTLBGenerals
+import NKWorking
 
 @MainActor
 class IoComponentViewOnce: NSObject {

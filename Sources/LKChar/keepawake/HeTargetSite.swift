@@ -2,7 +2,7 @@
 import UIKit
 import AVFoundation
 import AVKit
-import Taleo_General
+import TTLBGenerals
 
 
 public protocol destRegDelegate:AnyObject {

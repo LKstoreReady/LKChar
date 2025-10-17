@@ -2,7 +2,7 @@
 import Foundation
 import SnapKit
 import UIKit
-import Taleo_General
+import TTLBGenerals
 
 
 

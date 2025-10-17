@@ -1,7 +1,7 @@
 
 import UIKit
-import Package_net
-import Taleo_General
+import NKWorking
+import TTLBGenerals
 
 class IoPointPixelRound: HeFullClassName {
         
