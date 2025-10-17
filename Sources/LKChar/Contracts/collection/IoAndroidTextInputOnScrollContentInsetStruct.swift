@@ -1,6 +1,6 @@
 
 import UIKit
-import TTLBGenerals
+import Taleo_General
 class IoAndroidTextInputOnScrollContentInsetStruct: UITableViewCell {
         
 
@@ -66,6 +66,7 @@ class IoAndroidTextInputOnScrollContentInsetStruct: UITableViewCell {
     deinit {
         capturedStatusBarProperties()
         wBackgroundQueue.setIntervalPattern(nWakeMask)
+        print("``````````````````````````",String(describing: type(of: self)),"` deinit")
     }
         
         
@@ -82,7 +83,7 @@ class IoAndroidTextInputOnScrollContentInsetStruct: UITableViewCell {
         }
         nWakeMask.backgroundColor = .clear
                 
-        let iRuntimeGenerators = [UIImage(named: "numpadone_losowe")!,UIImage(named: "chariter_avfoundationerrordomain_flings")!,UIImage(named: "clearning_packagemanager_movn")!]
+        let iRuntimeGenerators = [UIImage.showSystemToast("numpadone_losowe"),UIImage.showSystemToast("chariter_avfoundationerrordomain_flings"),UIImage.showSystemToast("clearning_packagemanager_movn")]
         qFailedTimestamp.frame = CGRectMake(0, 0, 22, 22)
         qFailedTimestamp.animationImages = iRuntimeGenerators
         qFailedTimestamp.animationDuration = 1

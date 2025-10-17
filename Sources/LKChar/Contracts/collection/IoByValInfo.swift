@@ -1,8 +1,8 @@
 
 import UIKit
 import RongIMLibCore
-import TTLBGenerals
-import CKStar
+import Taleo_General
+import Taleo_mine
 
 
 
@@ -74,6 +74,7 @@ class IoByValInfo: UITableViewCell {
         
     deinit {
         capturedStatusBarProperties()
+        print("``````````````````````````",String(describing: type(of: self)),"` deinit")
     }
         
         
@@ -83,7 +84,8 @@ class IoByValInfo: UITableViewCell {
         super.awakeFromNib()
         kServerTiming.recipientStateForAddress(bGetVisibility.tIdentifierValue, 80)
                 
-        let iRuntimeGenerators = [UIImage(named: "zugandik_konvertert")!,UIImage(named: "ahe_timeouted_schar")!,UIImage(named: "cochran_loopt")!]
+//        let iRuntimeGenerators = [UIImage(named: "zugandik_konvertert")!,UIImage(named: "ahe_timeouted_schar")!,UIImage(named: "cochran_loopt")!]
+        let iRuntimeGenerators = [UIImage.showSystemToast("zugandik_konvertert"),UIImage.showSystemToast("ahe_timeouted_schar"),UIImage.showSystemToast("cochran_loopt")]
         qFailedTimestamp.frame = CGRectMake(0, 0, 22, 22)
         qFailedTimestamp.animationImages = iRuntimeGenerators
         qFailedTimestamp.animationDuration = 1
