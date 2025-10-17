@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="IoSqlFacetAttribute" customModule="MyChat">
+            <rect key="frame" x="0.0" y="0.0" width="468" height="63"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ipR-eI-qIJ">
+                    <rect key="frame" x="0.0" y="0.0" width="468" height="63"/>
+                    <subviews>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rq-KF-Vig">
+                            <rect key="frame" x="0.0" y="0.0" width="93.666666666666671" height="63"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="wRefreshFeed" value="dagar_unrealistically"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="dynamicLinkToWritableMap:" destination="iN0-l3-epB" eventType="touchUpInside" id="Rv8-x8-XcP"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z2A-Iv-yYY">
+                            <rect key="frame" x="93.666666666666657" y="0.0" width="93.666666666666657" height="63"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="wRefreshFeed" value="picha_hauteur_forlate"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="dynamicLinkToWritableMap:" destination="iN0-l3-epB" eventType="touchUpInside" id="dP3-3j-874"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drJ-eT-Aoi">
+                            <rect key="frame" x="280.66666666666669" y="0.0" width="93.666666666666686" height="63"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="wRefreshFeed" value="xyv_seperately"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="dynamicLinkToWritableMap:" destination="iN0-l3-epB" eventType="touchUpInside" id="Xaa-C1-de8"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wod-4T-y2Y">
+                            <rect key="frame" x="374.33333333333331" y="0.0" width="93.666666666666686" height="63"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="wRefreshFeed" value="browserstack_dochostuiflag_sigiot"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="dynamicLinkToWritableMap:" destination="iN0-l3-epB" eventType="touchUpInside" id="eyO-CB-aYR"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJF-hW-7L7">
+                            <rect key="frame" x="187.33333333333334" y="0.0" width="93.333333333333343" height="63"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="wRefreshFeed" value="artfolder_cachetotal_fdsaf"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="dynamicLinkToWritableMap:" destination="iN0-l3-epB" eventType="touchUpInside" id="SvP-eT-9F9"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="drJ-eT-Aoi" firstAttribute="top" secondItem="ipR-eI-qIJ" secondAttribute="top" id="1zV-gz-FN7"/>
+                        <constraint firstAttribute="bottom" secondItem="z2A-Iv-yYY" secondAttribute="bottom" id="7U9-X2-rOU"/>
+                        <constraint firstAttribute="bottom" secondItem="2rq-KF-Vig" secondAttribute="bottom" id="AG1-ei-Yvq"/>
+                        <constraint firstItem="UJF-hW-7L7" firstAttribute="width" secondItem="2rq-KF-Vig" secondAttribute="width" id="BfX-Pu-IPD"/>
+                        <constraint firstItem="UJF-hW-7L7" firstAttribute="top" secondItem="ipR-eI-qIJ" secondAttribute="top" id="Elf-1u-pvc"/>
+                        <constraint firstItem="wod-4T-y2Y" firstAttribute="top" secondItem="ipR-eI-qIJ" secondAttribute="top" id="Fmy-0P-ura"/>
+                        <constraint firstAttribute="bottom" secondItem="wod-4T-y2Y" secondAttribute="bottom" id="Na6-R6-agd"/>
+                        <constraint firstAttribute="bottom" secondItem="UJF-hW-7L7" secondAttribute="bottom" id="NvY-Mr-YRR"/>
+                        <constraint firstItem="drJ-eT-Aoi" firstAttribute="width" secondItem="2rq-KF-Vig" secondAttribute="width" id="Qzp-1b-ZJe"/>
+                        <constraint firstItem="z2A-Iv-yYY" firstAttribute="leading" secondItem="2rq-KF-Vig" secondAttribute="trailing" id="UCG-o5-Csc"/>
+                        <constraint firstItem="wod-4T-y2Y" firstAttribute="width" secondItem="2rq-KF-Vig" secondAttribute="width" id="Vwu-RI-4Ke"/>
+                        <constraint firstItem="UJF-hW-7L7" firstAttribute="leading" secondItem="z2A-Iv-yYY" secondAttribute="trailing" id="ahS-Py-AFI"/>
+                        <constraint firstItem="drJ-eT-Aoi" firstAttribute="leading" secondItem="UJF-hW-7L7" secondAttribute="trailing" id="eB2-75-aUh"/>
+                        <constraint firstItem="wod-4T-y2Y" firstAttribute="leading" secondItem="drJ-eT-Aoi" secondAttribute="trailing" id="fLf-G5-hYh"/>
+                        <constraint firstItem="2rq-KF-Vig" firstAttribute="leading" secondItem="ipR-eI-qIJ" secondAttribute="leading" id="hJo-1H-u2q"/>
+                        <constraint firstItem="2rq-KF-Vig" firstAttribute="top" secondItem="ipR-eI-qIJ" secondAttribute="top" id="iqE-9a-oOG"/>
+                        <constraint firstAttribute="trailing" secondItem="wod-4T-y2Y" secondAttribute="trailing" id="pOL-GM-D7Q"/>
+                        <constraint firstItem="z2A-Iv-yYY" firstAttribute="top" secondItem="ipR-eI-qIJ" secondAttribute="top" id="vLr-6R-dxl"/>
+                        <constraint firstAttribute="bottom" secondItem="drJ-eT-Aoi" secondAttribute="bottom" id="w12-Wr-bwp"/>
+                        <constraint firstItem="z2A-Iv-yYY" firstAttribute="width" secondItem="2rq-KF-Vig" secondAttribute="width" id="zXZ-Zl-cOW"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstItem="ipR-eI-qIJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8kM-DS-b9s"/>
+                <constraint firstItem="ipR-eI-qIJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="FaT-TN-t0P"/>
+                <constraint firstAttribute="bottom" secondItem="ipR-eI-qIJ" secondAttribute="bottom" id="Gh9-eS-BZw"/>
+                <constraint firstItem="ipR-eI-qIJ" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="uXK-ow-0Kb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="187.78625954198472" y="-41.197183098591552"/>
+        </view>
+    </objects>
+</document>

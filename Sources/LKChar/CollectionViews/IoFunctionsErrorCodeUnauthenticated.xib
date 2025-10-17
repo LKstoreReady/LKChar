@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="IoFunctionsErrorCodeUnauthenticated" customModule="MyChat">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="63"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hl0-Rc-K4v">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="63"/>
+                    <subviews>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqh-4u-SKt">
+                            <rect key="frame" x="0.0" y="0.0" width="131" height="63"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="wRefreshFeed" value="dagar_unrealistically"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="animationsDidFinish:" destination="iN0-l3-epB" eventType="touchUpInside" id="G3q-n0-gBQ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ma0-UG-ewk">
+                            <rect key="frame" x="131" y="0.0" width="131" height="63"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="wRefreshFeed" value="picha_hauteur_forlate"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="animationsDidFinish:" destination="iN0-l3-epB" eventType="touchUpInside" id="92E-9M-4Km"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HMs-Cq-jcm">
+                            <rect key="frame" x="262" y="0.0" width="131" height="63"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="wRefreshFeed" value="browserstack_dochostuiflag_sigiot"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="animationsDidFinish:" destination="iN0-l3-epB" eventType="touchUpInside" id="Ka3-59-FyO"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="ma0-UG-ewk" firstAttribute="top" secondItem="hl0-Rc-K4v" secondAttribute="top" id="5SB-Hl-AWH"/>
+                        <constraint firstItem="HMs-Cq-jcm" firstAttribute="leading" secondItem="ma0-UG-ewk" secondAttribute="trailing" id="AKw-zh-in9"/>
+                        <constraint firstItem="HMs-Cq-jcm" firstAttribute="top" secondItem="hl0-Rc-K4v" secondAttribute="top" id="Aym-MI-eq0"/>
+                        <constraint firstItem="aqh-4u-SKt" firstAttribute="leading" secondItem="hl0-Rc-K4v" secondAttribute="leading" id="Gal-77-Ibw"/>
+                        <constraint firstAttribute="bottom" secondItem="ma0-UG-ewk" secondAttribute="bottom" id="HtL-d7-mO7"/>
+                        <constraint firstItem="ma0-UG-ewk" firstAttribute="width" secondItem="aqh-4u-SKt" secondAttribute="width" id="LRr-OF-YKj"/>
+                        <constraint firstItem="HMs-Cq-jcm" firstAttribute="width" secondItem="aqh-4u-SKt" secondAttribute="width" id="QM2-Pb-oGA"/>
+                        <constraint firstAttribute="bottom" secondItem="aqh-4u-SKt" secondAttribute="bottom" id="f6h-s5-X11"/>
+                        <constraint firstItem="ma0-UG-ewk" firstAttribute="leading" secondItem="aqh-4u-SKt" secondAttribute="trailing" id="gaV-dw-YtL"/>
+                        <constraint firstItem="aqh-4u-SKt" firstAttribute="top" secondItem="hl0-Rc-K4v" secondAttribute="top" id="ijO-uU-WOq"/>
+                        <constraint firstAttribute="trailing" secondItem="HMs-Cq-jcm" secondAttribute="trailing" id="kb5-Yk-E5X"/>
+                        <constraint firstAttribute="bottom" secondItem="HMs-Cq-jcm" secondAttribute="bottom" id="rOi-jE-8Rd"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstItem="hl0-Rc-K4v" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="2hF-Fa-uka"/>
+                <constraint firstItem="hl0-Rc-K4v" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2k0-Qz-0y7"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="hl0-Rc-K4v" secondAttribute="trailing" id="6sA-eq-dqK"/>
+                <constraint firstAttribute="bottom" secondItem="hl0-Rc-K4v" secondAttribute="bottom" id="HBL-aM-VUc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="130.53435114503816" y="-11.267605633802818"/>
+        </view>
+    </objects>
+</document>
