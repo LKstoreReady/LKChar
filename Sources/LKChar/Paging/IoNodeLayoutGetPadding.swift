@@ -104,7 +104,6 @@ class IoNodeLayoutGetPadding: UITableViewCell, UITextViewDelegate {
         
         
     deinit {
-        print("``````````````````````````",String(describing: type(of: self)),"` deinit")
         NotificationCenter.default.removeObserver(self)
     }
         

@@ -37,11 +37,7 @@ class IoGetStaticShortField: UITableViewCell {
         
     var mEventHandler:String?
         
-        
-    deinit {
-                
-        print("``````````````````````````",String(describing: type(of: self)),"` deinit")
-    }
+     
         
         
         

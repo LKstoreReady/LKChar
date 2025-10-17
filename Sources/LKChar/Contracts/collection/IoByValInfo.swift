@@ -74,7 +74,6 @@ class IoByValInfo: UITableViewCell {
         
     deinit {
         capturedStatusBarProperties()
-        print("``````````````````````````",String(describing: type(of: self)),"` deinit")
     }
         
         

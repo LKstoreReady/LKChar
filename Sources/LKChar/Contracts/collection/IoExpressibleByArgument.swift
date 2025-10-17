@@ -74,7 +74,6 @@ class IoExpressibleByArgument: UITableViewCell {
         
     deinit {
         wBackgroundQueue.setIntervalPattern(sLogFlag)
-        print("``````````````````````````",String(describing: type(of: self)),"` deinit")
     }
         
     override func awakeFromNib() {
@@ -143,10 +142,8 @@ class IoExpressibleByArgument: UITableViewCell {
     internal func roundNightShelter(_ oBundledPath:IoComponentViewOnce){
         self.kSendJavascript = oBundledPath
         if oBundledPath.eTokenRecord.count == 0 {
-            print("````````dsad````",tag,"```````````````load local image")
             cCanDrag.image = oBundledPath.vAllSeries
         }else {
-            print("````````dsad`````",tag,"``````````````load image url = ",oBundledPath.eTokenRecord)
             cCanDrag.getStatusBarHeight(oBundledPath.eTokenRecord)
         }
         xHardwareStr.text = oBundledPath.kDelegateModal ?? ""

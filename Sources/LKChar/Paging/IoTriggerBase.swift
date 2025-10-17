@@ -76,7 +76,6 @@ class IoTriggerBase: HeGetEncoder,@preconcurrency symRoundedAdminMeds {
         
         
     deinit {
-        print("```````````````````````````IoTriggerBase deinit")
         uHeightConstant?.delegate = nil
         uHeightConstant = nil
         bInsertSubview?.resultBundleDelegate = nil

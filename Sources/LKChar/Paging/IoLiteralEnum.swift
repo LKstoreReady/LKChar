@@ -72,7 +72,6 @@ class IoLiteralEnum: HeFullClassName{
         fRandomMessage?.stop()
         fRandomMessage = nil
         capturedStatusBarProperties()
-        print("``````````````````````````",String(describing: type(of: self)),"` deinit")
     }
         
         
@@ -184,7 +183,6 @@ class IoLiteralEnum: HeFullClassName{
         
     private func clearTempRegisterValid(){
         if mFpsArray >= 1{
-            print("clearTempRegisterValid")
             let xFromBranch = NSHomeDirectory().appending("/Library/Caches/" + jSetPlayer)
             let gPressedData = RCHQVoiceMessage(path: xFromBranch, duration: self.lRunCommand)
             if self.lRunCommand > 0 {

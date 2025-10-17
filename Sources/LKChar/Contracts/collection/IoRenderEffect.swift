@@ -59,8 +59,6 @@ class IoRenderEffect: UICollectionViewCell {
         iGetFacets = oBundledPath.fShadowQueue ?? ""
         if iGetFacets.count == 0 {
             iGetFacets = oBundledPath.gGetStride ?? ""
-        }else {
-            print("")
         }
         if iGetFacets.lowercased().hasSuffix("png") || iGetFacets.lowercased().hasSuffix("jpg") || iGetFacets.lowercased().hasSuffix("jpeg") {
             iGetFacets = ""

@@ -254,8 +254,6 @@ class IoNormalizerIterator: HeGetRelativePointerIndex, @preconcurrency RCIMClien
         fadeToBlack("nwords_voidtoken_ocak", "")
         fadeToBlack("pfnglgettexfilterfuncsgisproc_decls", "\(tOverSome)")
         HeCertificateExpiredException.assertThatUnsignedInteger()
-        ///不能加这句，返回语聊 返回踢 下座位
-//        IoInfoExpression.iRemindersB.openBracePos()
     }
         
         

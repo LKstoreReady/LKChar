@@ -155,7 +155,6 @@ public class HeTargetSite: UIViewController, @preconcurrency AVCaptureFileOutput
         
     deinit{
                 
-        print("``````````````````````````",String(describing: type(of: self)),"` deinit")
         eBuildList.removeFromSuperview()
         gSettingWidth.player?.pause()
         gSettingWidth.player = nil

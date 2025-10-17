@@ -72,7 +72,6 @@ class IoAddUserSongs: UITableViewCell,UITextViewDelegate {
         
     deinit {
         capturedStatusBarProperties()
-        print("``````````````````````````",String(describing: type(of: self)),"` deinit")
     }
         
         

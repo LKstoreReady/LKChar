@@ -46,10 +46,7 @@ class IoSqlRowUpdatingEventArgs: UITableViewCell {
         
         
         
-    deinit {
-                
-        print("``````````````````````````",String(describing: type(of: self)),"` deinit")
-    }
+   
     @objc func setSystemNickname() {
         self.getRoiFloatPixelsRef()
         if oBundledPath.eTokenRecord.count != 0 {

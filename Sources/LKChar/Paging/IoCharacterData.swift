@@ -18,10 +18,7 @@ class IoCharacterData: HeFullClassName {
         }
     }
         
-    deinit {
-                
-        print("``````````````````````````",String(describing: type(of: self)),"` deinit")
-    }
+   
         
     override init(frame: CGRect) {
         super.init(frame: frame)

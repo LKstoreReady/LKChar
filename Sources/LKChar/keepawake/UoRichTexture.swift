@@ -175,16 +175,12 @@ import CKStar
         uCppName = nil
         IoFromRange.iRemindersB.zBuildJson = 0
         NotificationCenter.default.removeObserver(self)
-        print("`````````````````````````````````UoRichTexture deinit")
 
     }
         
         
         
     var timer1 : Timer!
-    @objc func asdasd() {
-        print("```````````````````chat timer")
-    }
         
         
     override func viewDidLoad() {

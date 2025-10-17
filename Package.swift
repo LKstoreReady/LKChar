@@ -15,7 +15,6 @@ let package = Package(
             targets: ["LKChar"]),
     ],
     dependencies: [
-        // 在这里重新添加你之前的第三方依赖
         .package(url: "https://github.com/CoderMJLee/MJRefresh", .upToNextMajor(from: "3.7.9")),
         .package(url: "https://github.com/rongcloud/RongCloudIM-iOS", .upToNextMajor(from: "5.24.2")),
         .package(url: "https://github.com/LKstoreReady/CKStar", .upToNextMajor(from: "1.0.0")),

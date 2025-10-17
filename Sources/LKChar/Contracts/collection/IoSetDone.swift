@@ -31,11 +31,7 @@ class IoSetDone: UITableViewCell {
     @IBOutlet weak var eProxyId: UIView!
     @IBOutlet weak var kPrivateSubclass: UIView!
         
-        
-    deinit {
-                
-        print("``````````````````````````",String(describing: type(of: self)),"` deinit")
-    }
+     
         
     override func awakeFromNib() {
         super.awakeFromNib()

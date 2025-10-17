@@ -27,7 +27,6 @@ class IoDonationReceiptImageActivityItemProvider: UIView {
     func getEmitterType(_ t : Int) {
         HeCertificateExpiredException.cfaBranchDirection()
         rHideKeyboard = t
-        print("````````````````````start play",rHideKeyboard)
     }
         
         
@@ -43,10 +42,8 @@ class IoDonationReceiptImageActivityItemProvider: UIView {
         
         
     @objc func normalizedXCoordinate() {
-        print("````````````````````time change",rHideKeyboard)
         rHideKeyboard -= 1
         if rHideKeyboard == 0 {
-            print("````````````````````time end",rHideKeyboard)
             setPreviewLayer()
         }
     }

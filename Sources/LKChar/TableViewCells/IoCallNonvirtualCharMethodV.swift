@@ -15,7 +15,6 @@ class IoCallNonvirtualCharMethodV: UIView {
         tSpaceItem.speed = 0
         fDebuggerPredicate.removeAnimation(forKey: "anfragen_destval_cppwinrt")
         tSpaceItem = nil
-        print("``````````````````````````",String(describing: type(of: self)),"` deinit")
     }
         
         
