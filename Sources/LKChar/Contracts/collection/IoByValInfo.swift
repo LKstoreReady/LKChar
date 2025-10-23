@@ -2,6 +2,9 @@
 import UIKit
 import RongIMLibCore
 import TTLBGenerals
+import CKStar
+
+
 
 class IoByValInfo: UITableViewCell {
         
