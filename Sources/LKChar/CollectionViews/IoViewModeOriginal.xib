@@ -8,13 +8,13 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IoViewModeOriginal" customModule="MyChat">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IoViewModeOriginal" customModule="LKChar">
             <connections>
-                <outlet property="vUpdateItems" destination="LdK-ca-sZq" id="6sK-Qy-O7i"/>
-                <outlet property="kCompileUnit" destination="hBd-51-g9q" id="kKk-Dw-J26"/>
                 <outlet property="dActionImage" destination="dgc-tR-7Do" id="sA4-lc-c1t"/>
-                <outlet property="pMatchingDecimal" destination="zOr-WJ-4tK" id="Ida-u2-7gK"/>
+                <outlet property="kCompileUnit" destination="hBd-51-g9q" id="kKk-Dw-J26"/>
                 <outlet property="mTopLabel" destination="paA-Ae-fgZ" id="eLb-b6-Kx5"/>
+                <outlet property="pMatchingDecimal" destination="zOr-WJ-4tK" id="Ida-u2-7gK"/>
+                <outlet property="vUpdateItems" destination="LdK-ca-sZq" id="6sK-Qy-O7i"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

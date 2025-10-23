@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="IoRenderEffect" customModule="MyChat">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="IoRenderEffect" customModule="LKChar">
             <rect key="frame" x="0.0" y="0.0" width="136" height="123"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -113,11 +113,11 @@
             </constraints>
             <size key="customSize" width="136" height="123"/>
             <connections>
-                <outlet property="jHasChanges" destination="uc3-gL-u1g" id="hrK-LY-m89"/>
                 <outlet property="aDeployedTooltip" destination="1td-74-bFe" id="WOH-ma-2qg"/>
-                <outlet property="qAsDouble" destination="zyG-OI-QQL" id="tjB-d3-CCr"/>
+                <outlet property="jHasChanges" destination="uc3-gL-u1g" id="hrK-LY-m89"/>
                 <outlet property="kUpdateAxis" destination="Ybv-tm-84z" id="igj-M6-9Ig"/>
                 <outlet property="pAttributeSelectors" destination="kSg-Mh-0Im" id="zKg-vc-0Zr"/>
+                <outlet property="qAsDouble" destination="zyG-OI-QQL" id="tjB-d3-CCr"/>
             </connections>
             <point key="canvasLocation" x="195.41984732824426" y="14.43661971830986"/>
         </collectionViewCell>

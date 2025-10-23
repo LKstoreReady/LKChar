@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IoScriptTranslator" customModule="MyChat">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IoScriptTranslator" customModule="LKChar">
             <connections>
-                <outlet property="gCcobjectValue" destination="8OK-mM-NwI" id="qaI-t9-GfE"/>
                 <outlet property="bSetIndices" destination="arD-jo-RGJ" id="rP3-kG-Kn6"/>
+                <outlet property="gCcobjectValue" destination="8OK-mM-NwI" id="qaI-t9-GfE"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

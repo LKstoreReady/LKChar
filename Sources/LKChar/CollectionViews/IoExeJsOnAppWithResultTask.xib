@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="185" id="KGk-i7-Jjw" customClass="IoExeJsOnAppWithResultTask" customModule="MyChat">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="185" id="KGk-i7-Jjw" customClass="IoExeJsOnAppWithResultTask" customModule="LKChar">
             <rect key="frame" x="0.0" y="0.0" width="575" height="185"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -178,16 +178,16 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="dSharpPublish" destination="EVv-6o-wFe" id="Dzh-Uv-EAR"/>
-                <outlet property="pThreadAdapter" destination="5Ae-6x-gYa" id="O5M-qm-h4d"/>
-                <outlet property="hSerializationData" destination="agP-IU-SpE" id="skS-NS-j3h"/>
-                <outlet property="oNsHeight" destination="h37-d8-BtN" id="Qyg-sB-mmC"/>
-                <outlet property="nFieldName" destination="alE-If-wkZ" id="iXz-kJ-K7x"/>
-                <outlet property="lMockPosition" destination="2Tq-VQ-Gsi" id="vnj-zB-6wq"/>
                 <outlet property="cRemoveIndex" destination="krh-cP-zz4" id="8qo-Ci-Oek"/>
+                <outlet property="dSharpPublish" destination="EVv-6o-wFe" id="Dzh-Uv-EAR"/>
                 <outlet property="eFromLegend" destination="Cdh-2I-Ema" id="nKV-CR-VUo"/>
-                <outlet property="jEnsuredValue" destination="Keu-AM-yWL" id="PwC-Z8-f5x"/>
                 <outlet property="hPasteboardNumerics" destination="Hkv-gG-2BU" id="NfF-0A-eFq"/>
+                <outlet property="hSerializationData" destination="agP-IU-SpE" id="skS-NS-j3h"/>
+                <outlet property="jEnsuredValue" destination="Keu-AM-yWL" id="PwC-Z8-f5x"/>
+                <outlet property="lMockPosition" destination="2Tq-VQ-Gsi" id="vnj-zB-6wq"/>
+                <outlet property="nFieldName" destination="alE-If-wkZ" id="iXz-kJ-K7x"/>
+                <outlet property="oNsHeight" destination="h37-d8-BtN" id="Qyg-sB-mmC"/>
+                <outlet property="pThreadAdapter" destination="5Ae-6x-gYa" id="O5M-qm-h4d"/>
                 <outlet property="tChoiceMode" destination="JcR-si-Hb7" id="XRN-SX-00V"/>
                 <outlet property="yExtensions" destination="BRC-bu-P4t" id="U0p-Z3-F2J"/>
             </connections>

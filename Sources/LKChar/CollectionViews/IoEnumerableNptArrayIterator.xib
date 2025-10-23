@@ -9,17 +9,17 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IoEnumerableNptArrayIterator" customModule="MyChat">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IoEnumerableNptArrayIterator" customModule="LKChar">
             <connections>
-                <outlet property="mLockKey" destination="6Lx-TD-ZB0" id="ToX-bL-03F"/>
                 <outlet property="cUniqueData" destination="yti-Z1-nyj" id="cHz-Wr-kN4"/>
-                <outlet property="sAssertLinkifies" destination="hq7-xT-2hZ" id="K0M-Ux-Jeq"/>
-                <outlet property="wOldContents" destination="f7W-5z-TGN" id="Uoh-WB-PaN"/>
                 <outlet property="fUpdateMapping" destination="KKC-6m-x2r" id="zin-55-nEj"/>
-                <outlet property="lMaximumClearance" destination="0tU-qO-nHW" id="rGN-1k-uNR"/>
-                <outlet property="yContentSubviews" destination="XQl-lp-jCo" id="hzM-Xw-tl1"/>
                 <outlet property="iNeedRefresh" destination="ysH-4X-K2d" id="XsJ-Qi-eb1"/>
+                <outlet property="lMaximumClearance" destination="0tU-qO-nHW" id="rGN-1k-uNR"/>
+                <outlet property="mLockKey" destination="6Lx-TD-ZB0" id="ToX-bL-03F"/>
+                <outlet property="sAssertLinkifies" destination="hq7-xT-2hZ" id="K0M-Ux-Jeq"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wOldContents" destination="f7W-5z-TGN" id="Uoh-WB-PaN"/>
+                <outlet property="yContentSubviews" destination="XQl-lp-jCo" id="hzM-Xw-tl1"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

@@ -9,26 +9,26 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IoDontEnum" customModule="MyChat">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IoDontEnum" customModule="LKChar">
             <connections>
-                <outlet property="dInsnList" destination="yrK-Ht-qu8" id="eSb-E1-jgS"/>
-                <outlet property="hDragConsumed" destination="yTK-E5-Ulg" id="azM-yP-1V4"/>
-                <outlet property="vBlurredInput" destination="Adg-jv-zib" id="qmy-bc-OTH"/>
-                <outlet property="fCompileType" destination="beG-ky-470" id="YjX-sn-G15"/>
-                <outlet property="fParseQuery" destination="E5A-pN-2GK" id="HRk-do-6kQ"/>
-                <outlet property="sActivationIndex" destination="r1Z-tl-1VL" id="6df-Pf-iSp"/>
-                <outlet property="pMdiTailwind" destination="Njp-gH-ukT" id="L6l-Hm-KKH"/>
+                <outlet property="aNameClass" destination="Uuc-r3-5gL" id="h9C-Fn-0B3"/>
                 <outlet property="bWidthRes" destination="sHQ-S7-Vo4" id="bNg-rw-kd9"/>
-                <outlet property="jDefaultSkin" destination="p9S-lg-Yre" id="lxb-sm-R1O"/>
+                <outlet property="dInsnList" destination="yrK-Ht-qu8" id="eSb-E1-jgS"/>
+                <outlet property="fCompileType" destination="beG-ky-470" id="YjX-sn-G15"/>
+                <outlet property="fEmulateProtanopia" destination="DdI-lk-TvG" id="cWk-uE-n9m"/>
+                <outlet property="fParseQuery" destination="E5A-pN-2GK" id="HRk-do-6kQ"/>
                 <outlet property="gHeaderRequest" destination="j2b-Rg-Rdh" id="9Wx-EC-6wv"/>
+                <outlet property="hButtonRect" destination="lHC-Dv-8VD" id="neB-jz-R3Z"/>
+                <outlet property="hDragConsumed" destination="yTK-E5-Ulg" id="azM-yP-1V4"/>
                 <outlet property="hInputChunk" destination="jTG-pR-hoh" id="3s8-EK-Aa9"/>
                 <outlet property="iUpdateEdge" destination="EJM-NM-pEl" id="uZb-tm-lVD"/>
-                <outlet property="hButtonRect" destination="lHC-Dv-8VD" id="neB-jz-R3Z"/>
-                <outlet property="aNameClass" destination="Uuc-r3-5gL" id="h9C-Fn-0B3"/>
-                <outlet property="oSetRotation" destination="RWQ-xf-Dy1" id="WaH-a5-hXL"/>
-                <outlet property="fEmulateProtanopia" destination="DdI-lk-TvG" id="cWk-uE-n9m"/>
+                <outlet property="jDefaultSkin" destination="p9S-lg-Yre" id="lxb-sm-R1O"/>
                 <outlet property="oOriginalPosition" destination="sIJ-Yh-aub" id="ob4-th-0VO"/>
+                <outlet property="oSetRotation" destination="RWQ-xf-Dy1" id="WaH-a5-hXL"/>
                 <outlet property="pIdentityResponse" destination="RPn-5h-tDE" id="tPK-GN-6c6"/>
+                <outlet property="pMdiTailwind" destination="Njp-gH-ukT" id="L6l-Hm-KKH"/>
+                <outlet property="sActivationIndex" destination="r1Z-tl-1VL" id="6df-Pf-iSp"/>
+                <outlet property="vBlurredInput" destination="Adg-jv-zib" id="qmy-bc-OTH"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

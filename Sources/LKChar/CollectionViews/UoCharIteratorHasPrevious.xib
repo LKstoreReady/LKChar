@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UoCharIteratorHasPrevious" customModule="MyChat">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UoCharIteratorHasPrevious" customModule="LKChar">
             <connections>
                 <outlet property="bControlActive" destination="wG9-Tr-ebd" id="JYF-lR-ZEC"/>
                 <outlet property="cWaitComplete" destination="HJw-zD-2iM" id="Yr0-oT-ToG"/>

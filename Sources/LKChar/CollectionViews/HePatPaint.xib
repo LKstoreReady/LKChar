@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="76" id="KGk-i7-Jjw" customClass="HePatPaint" customModule="MyChat">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="76" id="KGk-i7-Jjw" customClass="HePatPaint" customModule="LKChar">
             <rect key="frame" x="0.0" y="0.0" width="356" height="115"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -119,8 +119,8 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
-                <outlet property="bCallableId" destination="H4p-1T-Tp5" id="fhA-yG-Vlg"/>
                 <outlet property="aCosBeta" destination="nPS-MH-UXs" id="VhA-Tl-kyE"/>
+                <outlet property="bCallableId" destination="H4p-1T-Tp5" id="fhA-yG-Vlg"/>
                 <outlet property="qDotType" destination="P70-X7-E8O" id="91C-dF-FsR"/>
                 <outlet property="rSetNative" destination="o9f-KL-afF" id="PCF-1d-hyW"/>
             </connections>

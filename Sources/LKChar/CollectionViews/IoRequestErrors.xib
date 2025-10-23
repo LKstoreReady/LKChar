@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="247" id="KGk-i7-Jjw" customClass="IoRequestErrors" customModule="MyChat">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="247" id="KGk-i7-Jjw" customClass="IoRequestErrors" customModule="LKChar">
             <rect key="frame" x="0.0" y="0.0" width="637" height="247"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -72,11 +72,11 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
-                <outlet property="tEnableAttitude" destination="zmy-d9-FUN" id="ru4-9h-6h3"/>
                 <outlet property="eParseFloat" destination="ok0-d3-wZI" id="nbu-3M-WiY"/>
                 <outlet property="jPartitionBy" destination="zBj-E8-pPl" id="Stu-s1-wdH"/>
-                <outlet property="pMatchingDecimal" destination="HLR-aB-cnh" id="g8z-FJ-usx"/>
                 <outlet property="lMockPosition" destination="AqB-2R-aHu" id="i7e-uP-rLk"/>
+                <outlet property="pMatchingDecimal" destination="HLR-aB-cnh" id="g8z-FJ-usx"/>
+                <outlet property="tEnableAttitude" destination="zmy-d9-FUN" id="ru4-9h-6h3"/>
             </connections>
             <point key="canvasLocation" x="370.2290076335878" y="60.211267605633807"/>
         </tableViewCell>

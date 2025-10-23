@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="IoTriggerBase" customModule="MyChat">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="IoTriggerBase" customModule="LKChar">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -166,13 +166,13 @@
                 <constraint firstAttribute="bottom" secondItem="EUs-ba-4qi" secondAttribute="bottom" id="kPJ-VO-lOr"/>
             </constraints>
             <connections>
-                <outlet property="oResultString" destination="1wd-L4-jnp" id="uF3-di-gfn"/>
                 <outlet property="cUniqueData" destination="XgN-M9-0VF" id="BPg-VF-963"/>
+                <outlet property="fGenerateGain" destination="8UA-aa-xqq" id="pPf-hV-vVv"/>
                 <outlet property="kReplacedComponent" destination="GbV-yJ-fao" id="mDi-On-8qk"/>
                 <outlet property="nTargetInstance" destination="6hb-WO-c0N" id="DjX-jY-sVa"/>
-                <outlet property="tScaleKeys" destination="XIa-X3-sXx" id="JHM-Pr-MmE"/>
-                <outlet property="fGenerateGain" destination="8UA-aa-xqq" id="pPf-hV-vVv"/>
+                <outlet property="oResultString" destination="1wd-L4-jnp" id="uF3-di-gfn"/>
                 <outlet property="rSetNative" destination="LlG-8v-t8k" id="SBz-At-CFQ"/>
+                <outlet property="tScaleKeys" destination="XIa-X3-sXx" id="JHM-Pr-MmE"/>
             </connections>
             <point key="canvasLocation" x="130.53435114503816" y="257.04225352112678"/>
         </view>

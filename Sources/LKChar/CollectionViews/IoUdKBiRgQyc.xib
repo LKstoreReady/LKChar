@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="IoUdKBiRgQyc" customModule="MyChat">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="IoUdKBiRgQyc" customModule="LKChar">
             <rect key="frame" x="0.0" y="0.0" width="359" height="167"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -144,12 +144,12 @@
             </constraints>
             <size key="customSize" width="359" height="181"/>
             <connections>
-                <outlet property="tEnableAttitude" destination="asg-bt-mub" id="xAk-yz-b02"/>
+                <outlet property="dCustomMapper" destination="YVy-qi-ymk" id="Uwc-Mg-7iw"/>
+                <outlet property="hBindAttrs" destination="yPg-mw-Pj8" id="hKs-oM-NfE"/>
                 <outlet property="jButtonMenu" destination="bSt-Tc-zbp" id="PZ9-QR-Bd9"/>
                 <outlet property="qDotType" destination="Vpf-vf-PLX" id="MNh-ge-4oy"/>
-                <outlet property="hBindAttrs" destination="yPg-mw-Pj8" id="hKs-oM-NfE"/>
-                <outlet property="dCustomMapper" destination="YVy-qi-ymk" id="Uwc-Mg-7iw"/>
                 <outlet property="tAndroidOptions" destination="hmW-yN-OLb" id="bBq-bp-8Ee"/>
+                <outlet property="tEnableAttitude" destination="asg-bt-mub" id="xAk-yz-b02"/>
             </connections>
             <point key="canvasLocation" x="252.67175572519082" y="13.732394366197184"/>
         </collectionViewCell>

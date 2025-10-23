@@ -9,40 +9,40 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IoNormalizerIterator" customModule="MyChat">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IoNormalizerIterator" customModule="LKChar">
             <connections>
-                <outlet property="qMergedRanges" destination="n8L-8N-Ji8" id="KGW-5e-Ye4"/>
-                <outlet property="mLanguageQualifier" destination="agT-EO-DtV" id="Y8P-s6-YiG"/>
-                <outlet property="eProxyId" destination="N7X-T4-RcJ" id="8xD-Qw-sP7"/>
-                <outlet property="ePreFrame" destination="1lB-l0-Zza" id="5Bj-Oc-mnN"/>
-                <outlet property="dDirectionString" destination="asG-xJ-QWe" id="pqm-6l-AC6"/>
-                <outlet property="zTokenAck" destination="QBG-TE-fHt" id="MqV-HB-1rM"/>
-                <outlet property="gXyFwyhro" destination="lbH-gq-BCn" id="jCl-At-3BX"/>
-                <outlet property="jMetalConfig" destination="E9p-Gz-GcZ" id="sSk-wQ-guI"/>
-                <outlet property="kRestoreAll" destination="f9u-fx-gss" id="Tr5-iB-CyJ"/>
-                <outlet property="gParticleTechnique" destination="wWM-fx-btx" id="Bsg-6H-xwc"/>
                 <outlet property="aConcatLimit" destination="KLT-i8-Njr" id="OAD-dS-i1Y"/>
-                <outlet property="wContainOrientation" destination="YRL-7m-rsU" id="GVH-3H-Os5"/>
+                <outlet property="aCustomMapper" destination="bVm-3f-hJx" id="Bc5-XP-DSK"/>
+                <outlet property="aObserveTransition" destination="6On-k2-FiL" id="pYl-Rk-xbW"/>
+                <outlet property="bControlActive" destination="V0T-hx-9Ft" id="tJs-wv-Vgy"/>
+                <outlet property="cCallFailed" destination="vO6-Jp-Ght" id="Sxw-Mq-Adj"/>
+                <outlet property="cEntryAt" destination="ZUZ-CY-acG" id="VXQ-dI-rFQ"/>
+                <outlet property="dDirectionString" destination="asG-xJ-QWe" id="pqm-6l-AC6"/>
+                <outlet property="eExecutionDepth" destination="MI3-eO-0ta" id="7s9-Vp-ytM"/>
+                <outlet property="ePreFrame" destination="1lB-l0-Zza" id="5Bj-Oc-mnN"/>
+                <outlet property="eProxyId" destination="N7X-T4-RcJ" id="8xD-Qw-sP7"/>
+                <outlet property="eQuickSearch" destination="vWO-XD-5R7" id="MrB-Jv-miA"/>
+                <outlet property="gParticleTechnique" destination="wWM-fx-btx" id="Bsg-6H-xwc"/>
+                <outlet property="gXyFwyhro" destination="lbH-gq-BCn" id="jCl-At-3BX"/>
+                <outlet property="hIsTranslator" destination="ngY-uh-VgD" id="xkY-1q-bfa"/>
+                <outlet property="hVibrationEffect" destination="q2z-DW-seI" id="RvH-8x-F1u"/>
+                <outlet property="jMetalConfig" destination="E9p-Gz-GcZ" id="sSk-wQ-guI"/>
+                <outlet property="kRequestedSize" destination="8A9-Zc-Zcx" id="9e7-aS-hr0"/>
+                <outlet property="kRestoreAll" destination="f9u-fx-gss" id="Tr5-iB-CyJ"/>
+                <outlet property="kUpdateObserver" destination="FFe-5N-20i" id="Tzx-Sb-ND4"/>
+                <outlet property="mLanguageQualifier" destination="agT-EO-DtV" id="Y8P-s6-YiG"/>
+                <outlet property="mTopLabel" destination="Jds-Q5-dZI" id="SOY-BP-dSZ"/>
                 <outlet property="nDnString" destination="ClG-ga-2h5" id="Ahy-bp-9HL"/>
                 <outlet property="oPrekeyBundles" destination="iRe-m9-I6U" id="ckl-29-Mhu"/>
-                <outlet property="cCallFailed" destination="vO6-Jp-Ght" id="Sxw-Mq-Adj"/>
-                <outlet property="hVibrationEffect" destination="q2z-DW-seI" id="RvH-8x-F1u"/>
-                <outlet property="aObserveTransition" destination="6On-k2-FiL" id="pYl-Rk-xbW"/>
-                <outlet property="kRequestedSize" destination="8A9-Zc-Zcx" id="9e7-aS-hr0"/>
-                <outlet property="rSetNative" destination="svp-8G-Hfz" id="pwz-oG-neO"/>
-                <outlet property="eExecutionDepth" destination="MI3-eO-0ta" id="7s9-Vp-ytM"/>
-                <outlet property="wLayoutFacilitator" destination="2Pk-aE-En2" id="Bzb-vE-N6q"/>
-                <outlet property="kUpdateObserver" destination="FFe-5N-20i" id="Tzx-Sb-ND4"/>
-                <outlet property="mTopLabel" destination="Jds-Q5-dZI" id="SOY-BP-dSZ"/>
+                <outlet property="qMergedRanges" destination="n8L-8N-Ji8" id="KGW-5e-Ye4"/>
                 <outlet property="rActual" destination="Gwy-8J-vrs" id="hIH-d8-Z50"/>
+                <outlet property="rSetNative" destination="svp-8G-Hfz" id="pwz-oG-neO"/>
                 <outlet property="vVidHeight" destination="Mdk-Dx-Use" id="pWm-G9-QYp"/>
-                <outlet property="eQuickSearch" destination="vWO-XD-5R7" id="MrB-Jv-miA"/>
-                <outlet property="bControlActive" destination="V0T-hx-9Ft" id="tJs-wv-Vgy"/>
-                <outlet property="cEntryAt" destination="ZUZ-CY-acG" id="VXQ-dI-rFQ"/>
-                <outlet property="yBundleEntry" destination="9jG-Z2-HzV" id="qnD-g6-n9d"/>
-                <outlet property="hIsTranslator" destination="ngY-uh-VgD" id="xkY-1q-bfa"/>
-                <outlet property="aCustomMapper" destination="bVm-3f-hJx" id="Bc5-XP-DSK"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wContainOrientation" destination="YRL-7m-rsU" id="GVH-3H-Os5"/>
+                <outlet property="wLayoutFacilitator" destination="2Pk-aE-En2" id="Bzb-vE-N6q"/>
+                <outlet property="yBundleEntry" destination="9jG-Z2-HzV" id="qnD-g6-n9d"/>
+                <outlet property="zTokenAck" destination="QBG-TE-fHt" id="MqV-HB-1rM"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

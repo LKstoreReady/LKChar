@@ -9,25 +9,25 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeTargetSite" customModule="MyChat">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeTargetSite" customModule="LKChar">
             <connections>
+                <outlet property="aOtherwiseCalls" destination="ipP-hf-klQ" id="zqd-2Q-lce"/>
                 <outlet property="bStopTransfer" destination="4au-ij-6AE" id="BPP-N6-qwC"/>
-                <outlet property="fDemoData" destination="77M-mr-4t4" id="q2D-jy-Icm"/>
-                <outlet property="dSdkPath" destination="RWU-4G-DlU" id="hWw-S1-rbU"/>
-                <outlet property="sCameraViewport" destination="7YD-sk-iHq" id="UGo-E4-I4e"/>
                 <outlet property="dDictBuilder" destination="Abl-Ix-zuz" id="PVR-XN-Xey"/>
+                <outlet property="dSdkPath" destination="RWU-4G-DlU" id="hWw-S1-rbU"/>
+                <outlet property="eSetMinute" destination="Pxb-5K-5Ib" id="ljQ-DC-QN4"/>
+                <outlet property="fDemoData" destination="77M-mr-4t4" id="q2D-jy-Icm"/>
                 <outlet property="fValidChars" destination="yYO-Ym-3aV" id="GWh-Kl-A6T"/>
                 <outlet property="hSharpGradient" destination="Xla-yk-tsn" id="Spb-UD-om2"/>
-                <outlet property="sTitleCondensed" destination="laE-D7-tdk" id="nhl-YA-GJC"/>
-                <outlet property="aOtherwiseCalls" destination="ipP-hf-klQ" id="zqd-2Q-lce"/>
-                <outlet property="pMatchingDecimal" destination="ZTk-vu-g14" id="DRD-SP-ebG"/>
-                <outlet property="wAssociateWith" destination="Rqd-wX-9yS" id="6z9-x7-MSM"/>
                 <outlet property="jEnableScrolling" destination="MOz-3e-yz3" id="Gdg-3O-kCd"/>
-                <outlet property="yDocumentFile" destination="77M-mr-4t4" id="9eG-aV-Mka"/>
                 <outlet property="lMockPosition" destination="Rlb-sS-6nE" id="9M1-dw-NQk"/>
-                <outlet property="eSetMinute" destination="Pxb-5K-5Ib" id="ljQ-DC-QN4"/>
-                <outlet property="wTexturePacks" destination="dnA-Hx-18S" id="PCv-qa-jmE"/>
+                <outlet property="pMatchingDecimal" destination="ZTk-vu-g14" id="DRD-SP-ebG"/>
+                <outlet property="sCameraViewport" destination="7YD-sk-iHq" id="UGo-E4-I4e"/>
+                <outlet property="sTitleCondensed" destination="laE-D7-tdk" id="nhl-YA-GJC"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wAssociateWith" destination="Rqd-wX-9yS" id="6z9-x7-MSM"/>
+                <outlet property="wTexturePacks" destination="dnA-Hx-18S" id="PCv-qa-jmE"/>
+                <outlet property="yDocumentFile" destination="77M-mr-4t4" id="9eG-aV-Mka"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

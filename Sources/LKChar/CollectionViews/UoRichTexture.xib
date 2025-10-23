@@ -8,27 +8,27 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UoRichTexture" customModule="MyChat">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UoRichTexture" customModule="LKChar">
             <connections>
-                <outlet property="mLanguageQualifier" destination="6QD-S5-Pu6" id="Veb-KS-Hml"/>
-                <outlet property="eProxyId" destination="N7X-T4-RcJ" id="8xD-Qw-sP7"/>
-                <outlet property="yLblError" destination="2PG-rD-U4a" id="Bb9-ob-QNH"/>
-                <outlet property="mLaFedora" destination="gEX-Sr-BX3" id="Imt-LC-eFi"/>
-                <outlet property="oPrekeyBundles" destination="iRe-m9-I6U" id="jRx-pD-IPC"/>
-                <outlet property="cCallFailed" destination="Gf9-cx-PkS" id="8cg-AA-fuj"/>
-                <outlet property="hVibrationEffect" destination="q2z-DW-seI" id="8mm-dW-DwJ"/>
                 <outlet property="aObserveTransition" destination="6On-k2-FiL" id="pYl-Rk-xbW"/>
-                <outlet property="eSmallerAxis" destination="5yn-4z-EPc" id="mFh-JN-kEl"/>
-                <outlet property="lContextGroup" destination="SWD-1z-H9W" id="1jB-2r-9Ph"/>
-                <outlet property="wLayoutFacilitator" destination="2Pk-aE-En2" id="Bzb-vE-N6q"/>
-                <outlet property="rTelNational" destination="67o-ls-P5M" id="sMf-Gw-Otn"/>
-                <outlet property="eQuickSearch" destination="vWO-XD-5R7" id="MrB-Jv-miA"/>
-                <outlet property="yUtmCopy" destination="7Zy-4X-2jq" id="DUu-je-rzl"/>
                 <outlet property="bControlActive" destination="V0T-hx-9Ft" id="tJs-wv-Vgy"/>
+                <outlet property="cCallFailed" destination="Gf9-cx-PkS" id="8cg-AA-fuj"/>
                 <outlet property="cEntryAt" destination="ZUZ-CY-acG" id="VXQ-dI-rFQ"/>
-                <outlet property="yBundleEntry" destination="9jG-Z2-HzV" id="qnD-g6-n9d"/>
+                <outlet property="eProxyId" destination="N7X-T4-RcJ" id="8xD-Qw-sP7"/>
+                <outlet property="eQuickSearch" destination="vWO-XD-5R7" id="MrB-Jv-miA"/>
+                <outlet property="eSmallerAxis" destination="5yn-4z-EPc" id="mFh-JN-kEl"/>
                 <outlet property="hIsTranslator" destination="ngY-uh-VgD" id="xkY-1q-bfa"/>
+                <outlet property="hVibrationEffect" destination="q2z-DW-seI" id="8mm-dW-DwJ"/>
+                <outlet property="lContextGroup" destination="SWD-1z-H9W" id="1jB-2r-9Ph"/>
+                <outlet property="mLaFedora" destination="gEX-Sr-BX3" id="Imt-LC-eFi"/>
+                <outlet property="mLanguageQualifier" destination="6QD-S5-Pu6" id="Veb-KS-Hml"/>
+                <outlet property="oPrekeyBundles" destination="iRe-m9-I6U" id="jRx-pD-IPC"/>
+                <outlet property="rTelNational" destination="67o-ls-P5M" id="sMf-Gw-Otn"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wLayoutFacilitator" destination="2Pk-aE-En2" id="Bzb-vE-N6q"/>
+                <outlet property="yBundleEntry" destination="9jG-Z2-HzV" id="qnD-g6-n9d"/>
+                <outlet property="yLblError" destination="2PG-rD-U4a" id="Bb9-ob-QNH"/>
+                <outlet property="yUtmCopy" destination="7Zy-4X-2jq" id="DUu-je-rzl"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="310" id="KGk-i7-Jjw" customClass="IoSaddleBrown" customModule="MyChat">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="310" id="KGk-i7-Jjw" customClass="IoSaddleBrown" customModule="LKChar">
             <rect key="frame" x="0.0" y="0.0" width="457" height="300"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -114,22 +114,22 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="kSourceP" destination="aax-Gs-d12" id="lWN-nw-hjo"/>
-                <outlet property="jImageListener" destination="YAs-du-cHj" id="8FE-OK-ZXC"/>
-                <outlet property="iAsmName" destination="oVB-o0-qze" id="XF7-7h-ziT"/>
-                <outlet property="uAggregateValue" destination="HWv-8U-Yg0" id="Brg-Dt-Vb8"/>
-                <outlet property="lRawLines" destination="jjr-fa-vui" id="jzg-ev-JOy"/>
-                <outlet property="rLocalUri" destination="jxh-KZ-CUv" id="Zzq-kt-YTB"/>
-                <outlet property="eMatStream" destination="zdI-uT-SMT" id="3iU-cD-6Gb"/>
-                <outlet property="kDelegateModal" destination="pqh-XB-FV7" id="CQ4-UL-qCT"/>
                 <outlet property="dLatLong" destination="qEQ-mb-Y4G" id="rnw-2C-B7a"/>
-                <outlet property="jCollisionMargin" destination="NvD-OM-zzX" id="J6n-RY-NUF"/>
-                <outlet property="sAuthenticationType" destination="xkb-EL-DNW" id="5fI-mB-maM"/>
-                <outlet property="lHasImage" destination="eWY-Pg-Phk" id="hPN-1L-FyU"/>
-                <outlet property="jProcessorKey" destination="nAy-Qh-jcZ" id="RTI-gB-oFI"/>
-                <outlet property="rDefaultAlign" destination="z57-8j-y7Z" id="L9N-lY-Yhl"/>
+                <outlet property="eMatStream" destination="zdI-uT-SMT" id="3iU-cD-6Gb"/>
                 <outlet property="fPopFront" destination="WjH-Cl-Bvl" id="uLX-iZ-Xr0"/>
+                <outlet property="iAsmName" destination="oVB-o0-qze" id="XF7-7h-ziT"/>
+                <outlet property="jCollisionMargin" destination="NvD-OM-zzX" id="J6n-RY-NUF"/>
+                <outlet property="jImageListener" destination="YAs-du-cHj" id="8FE-OK-ZXC"/>
+                <outlet property="jProcessorKey" destination="nAy-Qh-jcZ" id="RTI-gB-oFI"/>
+                <outlet property="kDelegateModal" destination="pqh-XB-FV7" id="CQ4-UL-qCT"/>
+                <outlet property="kSourceP" destination="aax-Gs-d12" id="lWN-nw-hjo"/>
+                <outlet property="lHasImage" destination="eWY-Pg-Phk" id="hPN-1L-FyU"/>
+                <outlet property="lRawLines" destination="jjr-fa-vui" id="jzg-ev-JOy"/>
                 <outlet property="mPropsKey" destination="0iH-v6-O5Q" id="ga2-zz-OF0"/>
+                <outlet property="rDefaultAlign" destination="z57-8j-y7Z" id="L9N-lY-Yhl"/>
+                <outlet property="rLocalUri" destination="jxh-KZ-CUv" id="Zzq-kt-YTB"/>
+                <outlet property="sAuthenticationType" destination="xkb-EL-DNW" id="5fI-mB-maM"/>
+                <outlet property="uAggregateValue" destination="HWv-8U-Yg0" id="Brg-Dt-Vb8"/>
             </connections>
             <point key="canvasLocation" x="234.35114503816794" y="81.690140845070431"/>
         </tableViewCell>
