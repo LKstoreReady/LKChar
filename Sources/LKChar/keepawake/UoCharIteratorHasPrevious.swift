@@ -278,6 +278,9 @@ class UoCharIteratorHasPrevious: IoGetTotalUnpackedSize, UITableViewDelegate, UI
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
                 
+        self.qDestSet.isHidden = HeExecuteDelete.iRemindersB.vRawColors
+
+        
         self.navigationController?.navigationBar.isHidden = true
         self.navigationController?.setNavigationBarHidden(true, animated: false)
                 

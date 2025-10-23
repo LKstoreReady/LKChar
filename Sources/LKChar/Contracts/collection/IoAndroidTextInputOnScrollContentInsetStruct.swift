@@ -66,7 +66,6 @@ class IoAndroidTextInputOnScrollContentInsetStruct: UITableViewCell {
     deinit {
         capturedStatusBarProperties()
         wBackgroundQueue.setIntervalPattern(nWakeMask)
-        print("``````````````````````````",String(describing: type(of: self)),"` deinit")
     }
         
         
