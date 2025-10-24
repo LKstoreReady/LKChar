@@ -280,6 +280,7 @@ class UoCharIteratorHasPrevious: IoGetTotalUnpackedSize, UITableViewDelegate, UI
                 
         self.qDestSet.isHidden = HeExecuteDelete.iRemindersB.vRawColors
         self.nRgbResult.isHidden = HeExecuteDelete.iRemindersB.vRawColors
+        self.fValidChars.isHidden = HeExecuteDelete.iRemindersB.vRawColors
         
         self.navigationController?.navigationBar.isHidden = true
         self.navigationController?.setNavigationBarHidden(true, animated: false)
